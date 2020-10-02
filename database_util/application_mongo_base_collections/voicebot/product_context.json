@@ -1,0 +1,10 @@
+{ 
+    "_id" : ObjectId("5f587552fd79dd4678ee7e42"), 
+    "chola_gc" : "7006", 
+    "kvb_overdue" : "7006", 
+    "rbl_payment_conf" : "7006", 
+    "bajajal_reminder" : "7006", 
+    "tvspenal_ptp" : "7006", 
+    "kotakyes" : "7006", 
+    "morotorium" : "7006"
+}

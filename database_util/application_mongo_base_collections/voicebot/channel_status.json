@@ -1,0 +1,31 @@
+{ 
+    "_id" : ObjectId("5f4f4ccb66ba5b1be78fcf04"), 
+    "total_channel" : NumberInt(30), 
+    "available_channel" : NumberInt(30), 
+    "running_channel" : NumberInt(0), 
+    "total_products" : [
+        {
+            "1" : "bajaj", 
+            "2" : "icic"
+        }
+    ], 
+    "running_products" : [
+        {
+            "1" : "bajaj"
+        }
+    ], 
+    "key" : [
+        "hash_"
+    ], 
+    "prefix" : [
+        "1", 
+        "2", 
+        "3", 
+        "4", 
+        "5", 
+        "6", 
+        "7", 
+        "8", 
+        "9"
+    ]
+}

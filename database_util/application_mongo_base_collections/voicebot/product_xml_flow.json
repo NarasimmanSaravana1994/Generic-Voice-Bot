@@ -1,0 +1,180 @@
+{ 
+    "_id" : ObjectId("5f5f69bdc9786970611ddffb"), 
+    "product_name" : "bajaj", 
+    "status" : "1", 
+    "sub_products" : [
+        {
+            "sub_product_name" : "finserv_vb_nach", 
+            "audios" : [
+                {
+                    "language" : "english", 
+                    "audio_flow" : [
+                        {
+                            "audio_number" : "0", 
+                            "value" : [
+                                {
+                                    "responce" : "", 
+                                    "audio_name" : "bajajnach_eng_aud_1"
+                                }
+                            ]
+                        }, 
+                        {
+                            "audio_number" : "1", 
+                            "value" : [
+                                {
+                                    "responce" : "yes", 
+                                    "audio_name" : "bajajnach_hin_aud_2"
+                                }, 
+                                {
+                                    "responce" : "", 
+                                    "audio_name" : "bajajnach_eng_aud_3"
+                                }, 
+                                {
+                                    "responce" : "no", 
+                                    "audio_name" : "bajajnach_eng_aud_3"
+                                }, 
+                                {
+                                    "responce" : "unclear", 
+                                    "audio_name" : "bajajnach_eng_aud_3"
+                                }
+                            ]
+                        }, 
+                        {
+                            "audio_number" : "91", 
+                            "value" : [
+                                {
+                                    "responce" : "yes", 
+                                    "audio_name" : "bajajnach_hin_aud_2"
+                                }, 
+                                {
+                                    "responce" : "", 
+                                    "audio_name" : "bajajnach_eng_aud_3"
+                                }, 
+                                {
+                                    "responce" : "no", 
+                                    "audio_name" : "bajajnach_eng_aud_3"
+                                }, 
+                                {
+                                    "responce" : "unclear", 
+                                    "audio_name" : "bajajnach_eng_aud_3"
+                                }
+                            ]
+                        }
+                    ]
+                }, 
+                {
+                    "language" : "hindi", 
+                    "audio_flow" : [
+                        {
+                            "audio_number" : "0", 
+                            "value" : [
+                                {
+                                    "responce" : "", 
+                                    "audio_name" : "bajajnach_hin_aud_1"
+                                }
+                            ]
+                        }, 
+                        {
+                            "audio_number" : "1", 
+                            "value" : [
+                                {
+                                    "responce" : "yes", 
+                                    "audio_name" : "bajajnach_hin_aud_2"
+                                }, 
+                                {
+                                    "responce" : "", 
+                                    "audio_name" : "bajajnach_eng_aud_3"
+                                }, 
+                                {
+                                    "responce" : "no", 
+                                    "audio_name" : "bajajnach_eng_aud_3"
+                                }, 
+                                {
+                                    "responce" : "unclear", 
+                                    "audio_name" : "bajajnach_eng_aud_3"
+                                }
+                            ]
+                        }, 
+                        {
+                            "audio_number" : "91", 
+                            "value" : [
+                                {
+                                    "responce" : "yes", 
+                                    "audio_name" : "bajajnach_hin_aud_2"
+                                }, 
+                                {
+                                    "responce" : "", 
+                                    "audio_name" : "bajajnach_hin_aud_3"
+                                }, 
+                                {
+                                    "responce" : "no", 
+                                    "audio_name" : "bajajnach_hin_aud_3"
+                                }, 
+                                {
+                                    "responce" : "unclear", 
+                                    "audio_name" : "bajajnach_hin_aud_3"
+                                }
+                            ]
+                        }
+                    ]
+                }, 
+                {
+                    "language" : "tamil", 
+                    "audio_flow" : [
+                        {
+                            "audio_number" : "0", 
+                            "value" : [
+                                {
+                                    "responce" : "", 
+                                    "audio_name" : "bajajnach_tam_aud_1"
+                                }
+                            ]
+                        }, 
+                        {
+                            "audio_number" : "1", 
+                            "value" : [
+                                {
+                                    "responce" : "yes", 
+                                    "audio_name" : "bajajnach_tam_aud_2"
+                                }, 
+                                {
+                                    "responce" : "", 
+                                    "audio_name" : "bajajnach_tam_aud_3"
+                                }, 
+                                {
+                                    "responce" : "no", 
+                                    "audio_name" : "bajajnach_tam_aud_3"
+                                }, 
+                                {
+                                    "responce" : "unclear", 
+                                    "audio_name" : "bajajnach_tam_aud_3"
+                                }
+                            ]
+                        }, 
+                        {
+                            "audio_number" : "91", 
+                            "value" : [
+                                {
+                                    "responce" : "yes", 
+                                    "yes" : "bajajnach_tam_aud_2"
+                                }, 
+                                {
+                                    "responce" : "", 
+                                    "audio_name" : "bajajnach_tam_aud_3"
+                                }, 
+                                {
+                                    "responce" : "no", 
+                                    "audio_name" : "bajajnach_tam_aud_3"
+                                }, 
+                                {
+                                    "responce" : "unclear", 
+                                    "audio_name" : "bajajnach_tam_aud_3"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,68 @@
+{ 
+    "_id" : ObjectId("5f4f6d0366ba5b1be78fd1d0"), 
+    "product_id" : NumberInt(1), 
+    "product_name" : "hdb_vb_pdm", 
+    "status" : NumberInt(1), 
+    "call_initiate_custome_audio" : NumberInt(1), 
+    "sub_products" : {
+        "hdb_vb_pdm" : {
+            "question_nos" : [
+                "1", 
+                "4", 
+                "5"
+            ], 
+            "custome_audios" : {
+                "english" : [
+
+                ], 
+                "hindi" : [
+
+                ]
+            }
+        }, 
+        "hdb_vb_pdm_reply_expecting" : {
+            "question_nos" : [
+                "2", 
+                "3", 
+                "4", 
+                "5", 
+                "10", 
+                "11"
+            ], 
+            "custome_audios" : {
+                "english" : [
+
+                ], 
+                "hindi" : [
+
+                ], 
+                "none" : [
+
+                ]
+            }
+        }, 
+        "hdb_vb_pdm_repeat_audios" : {
+            "question_nos" : [
+                "3", 
+                "5"
+            ], 
+            "custome_audios" : {
+                "english" : [
+
+                ], 
+                "hindi" : [
+
+                ]
+            }
+        }, 
+        "hdb_vb_pdm_unique_audios" : {
+
+        }, 
+        "hdb_vb_pdm_immediate_audios" : {
+
+        }, 
+        "hdb_vb_pdm_ending_audios" : {
+
+        }
+    }
+}

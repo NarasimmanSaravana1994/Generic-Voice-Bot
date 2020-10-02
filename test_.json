@@ -1,0 +1,210 @@
+{
+    "product_name": "hfcl",
+    "repeating_count": 2,
+    "status": 1,
+    "is_call_initiate_custome_audio": 1,
+    "context": "7008",
+    "question_flow": [
+        {
+            "audio_number": 0,
+            "no_of_repeating": 1,
+            "flow_type": "ivr",
+            "play_duration": 0,
+            "vb_reply_expecting": false,
+            "ivr_reply_expecting": false,
+            "audio_name": "",
+            "is_customazied": true,
+            "is_flow_end": true,
+            "is_ivr_next_question_no": 1,
+            "customizeds": [
+                {
+                    "language": "english",
+                    "sequence": [
+                        {
+                            "audio": "1",
+                            "type": 1
+                        },
+                        {
+                            "audio": "dealer_name",
+                            "type": 2
+                        },
+                        {
+                            "audio": "2",
+                            "type": 1
+                        },
+                        {
+                            "audio": "loan_amount",
+                            "type": 3
+                        }
+                    ]
+                }
+            ],
+            "vb_reply": [],
+            "ivr_reply": []
+        }
+    ]
+},
+{
+    "product_name": "morotorium",
+    "status": 1,
+    "is_call_initiate_custome_audio": 1,
+    "context": "7008",
+    "customized_audio": [
+        4,
+        5
+    ],
+    "question_flow": [
+        {
+            "audio_number": 1,
+            "no_of_repeating": 1,
+            "flow_type": "ivr",
+            "play_duration": 0,
+            "vb_reply_expecting": false,
+            "ivr_reply_expecting": true,
+            "audio_name": "",
+            "is_customazied": true,
+            "is_flow_end": true,
+            "is_ivr_next_question_no": 0,
+            "customizeds": [
+                {
+                    "language": "english",
+                    "sequence": [
+                        {
+                            "audio": "1",
+                            "type": 1
+                        },
+                        {
+                            "audio": "dealer_name",
+                            "type": 2
+                        },
+                        {
+                            "audio": "2",
+                            "type": 1
+                        },
+                        {
+                            "audio": "loan_amount",
+                            "type": 3
+                        }
+                    ]
+                }
+            ],
+            "vb_reply": [],
+            "ivr_reply": [
+                {
+                    "language": "english",
+                    "values": [
+                        {
+                            "responce_category": [
+                                "start"
+                            ],
+                            "audio": "start",
+                            "next_question_no": 2
+                        },
+                        {
+                            "responce_category": [
+                                "1"
+                            ],
+                            "audio": "1",
+                            "next_question_no": 2
+                        },
+                        {
+                            "responce_category": [
+                                "2",
+                                "3"
+                            ],
+                            "audio": "2-3",
+                            "next_question_no": 2
+                        },
+                        {
+                            "responce_category": [
+                                ""
+                            ],
+                            "audio": "sry_audio",
+                            "next_question_no": 2
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+},
+{
+    "product_name": "icic",
+    "status": 1,
+    "is_call_initiate_custome_audio": 1,
+    "context": "7008",
+    "customized_audio": [],
+    "question_flow": [
+        {
+            "audio_number": 0,
+            "no_of_repeating": 2,
+            "flow_type": "vb",
+            "play_duration": 0,
+            "vb_reply_expecting": true,
+            "ivr_reply_expecting": false,
+            "audio_name": "",
+            "is_customazied": false,
+            "is_flow_end": true,
+            "customizeds": [
+                {
+                    "language": "english",
+                    "sequence": [
+                        {
+                            "audio": "1",
+                            "type": 1
+                        },
+                        {
+                            "audio": "dealer_name",
+                            "type": 2
+                        },
+                        {
+                            "audio": "2",
+                            "type": 1
+                        },
+                        {
+                            "audio": "loan_amount",
+                            "type": 3
+                        }
+                    ]
+                }
+            ],
+            "vb_reply": [
+                {
+                    "language": "english",
+                    "values": [
+                        {
+                            "responce_category": [
+                                "start"
+                            ],
+                            "audio": "start",
+                            "next_question_no": 1
+                        },
+                        {
+                            "responce_category": [
+                                "1"
+                            ],
+                            "audio": "1",
+                            "next_question_no": 1
+                        },
+                        {
+                            "responce_category": [
+                                "2",
+                                "3"
+                            ],
+                            "audio": "2-3",
+                            "next_question_no": 1
+                        },
+                        {
+                            "responce_category": [
+                                ""
+                            ],
+                            "audio": "sry_audio",
+                            "next_question_no": 1
+                        }
+                    ]
+                }
+            ],
+            "ivr_reply": []
+        }
+    ]
+}

@@ -1,0 +1,187 @@
+{
+    "product_name" : "equitasfixeddeposit",
+    "status" : 1,
+    "is_call_initiate_custome_audio" : 1,
+    "context" : "7008",
+    "customized_audio" : [ 
+        4, 
+        5
+    ],
+    "question_flow" : [ 
+        {
+            "audio_number" : 0,
+            "no_of_repeating" : 1,
+            "flow_type" : "vb",
+            "play_duration" : 5,
+            "vb_reply_expecting" : false,
+            "ivr_reply_expecting" : false,
+            "audio_name" : "",
+            "is_customazied" : false,
+            "is_flow_end" : false,
+            "is_ivr_next_question_no" : 0,
+            "customizeds" : [],
+            "vb_reply" : [],
+            "ivr_reply" : []
+        }, 
+        {
+            "audio_number" : 1,
+            "no_of_repeating" : 2,
+            "flow_type" : "vb",
+            "play_duration" : 5,
+            "vb_reply_expecting" : false,
+            "ivr_reply_expecting" : false,
+            "audio_name" : "",
+            "is_customazied" : true,
+            "is_flow_end" : false,
+            "is_ivr_next_question_no" : 2,
+            "customizeds" : [ 
+                {
+                    "language" : "english",
+                    "sequence" : [ 
+                        {
+                            "audio" : "1_equitasfdrenew_eng_aud_1_1",
+                            "type" : 1
+                        }, 
+                        {
+                            "audio" : "1_equitasfdrenew_eng_aud_1_2",
+                            "type" : 1
+                        }, 
+                        {
+                            "audio" : "loan_amount",
+                            "type" : 3
+                        }, 
+                        {
+                            "audio" : "1_equitasfdrenew_eng_aud_1_3",
+                            "type" : 1
+                        }, 
+                        {
+                            "audio" : "date",
+                            "type" : 4
+                        }, 
+                        {
+                            "audio" : "1_equitasfdrenew_eng_aud_1_4",
+                            "type" : 1
+                        }, 
+                        {
+                            "audio" : "no_of_yes",
+                            "type" : 4
+                        }, 
+                        {
+                            "audio" : "1_equitasfdrenew_eng_aud_1_5",
+                            "type" : 1
+                        }, 
+                        {
+                            "audio" : "tenure",
+                            "type" : 3
+                        }, 
+                        {
+                            "audio" : "1_equitasfdrenew_eng_aud_1_6",
+                            "type" : 1
+                        }
+                    ]
+                }
+            ],
+            "vb_reply" : [],
+            "ivr_reply" : []
+        }, 
+        {
+            "audio_number" : 2,
+            "no_of_repeating" : 1,
+            "flow_type" : "vb",
+            "play_duration" : 5,
+            "vb_reply_expecting" : true,
+            "ivr_reply_expecting" : false,
+            "audio_name" : "",
+            "is_customazied" : false,
+            "is_flow_end" : true,
+            "is_ivr_next_question_no" : 0,
+            "customizeds" : [],
+            "vb_reply" : [ 
+                {
+                    "language" : "english",
+                    "values" : [ 
+                        {
+                            "responce_category" : [ 
+                                "no"
+                            ],
+                            "audio" : "end_3_equitasfdrenew_eng_aud_3_3",
+                            "is_run_time_dynamic_audio" : false,
+                            "is_run_time_dynamic" : [],
+                            "next_question_no" : 0
+                        }, 
+                        {
+                            "responce_category" : [ 
+                                "yes"
+                            ],
+                            "audio" : "yes",
+                            "is_run_time_dynamic_audio" : true,
+                            "is_run_time_dynamic" : [ 
+                                {
+                                    "language" : "english",
+                                    "sequence" : [ 
+                                        {
+                                            "audio" : "end_3_equitasfdrenew_eng_aud_3_1",
+                                            "type" : 1
+                                        }, 
+                                        {
+                                            "audio" : "date",
+                                            "type" : 4
+                                        }, 
+                                        {
+                                            "audio" : "end_3_equitasfdrenew_eng_aud_3_2",
+                                            "type" : 4
+                                        }
+                                    ]
+                                }
+                            ],
+                            "next_question_no" : 0
+                        }
+                    ]
+                }
+            ],
+            "ivr_reply" : [
+        	{
+                "language" : "english",
+                "values" : [ 
+                    {
+                        "responce_category" : [ 
+                            "no"
+                        ],
+                        "audio" : "end_3_equitasfdrenew_eng_aud_3_3",
+                        "is_run_time_dynamic_audio" : false,
+                        "is_run_time_dynamic" : [],
+                        "next_question_no" : 0
+                    }, 
+                    {
+                        "responce_category" : [ 
+                            "yes"
+                        ],
+                        "audio" : "yes",
+                        "is_run_time_dynamic_audio" : true,
+                        "is_run_time_dynamic" : [ 
+                            {
+                                "language" : "english",
+                                "sequence" : [ 
+                                    {
+                                        "audio" : "end_3_equitasfdrenew_eng_aud_3_1",
+                                        "type" : 1
+                                    }, 
+                                    {
+                                        "audio" : "date",
+                                        "type" : 4
+                                    }, 
+                                    {
+                                        "audio" : "end_3_equitasfdrenew_eng_aud_3_2",
+                                        "type" : 4
+                                    }
+                                ]
+                            }
+                        ],
+                        "next_question_no" : 0
+                    }
+                ]
+            }
+            ]
+        }
+    ]
+}
